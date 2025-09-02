@@ -285,6 +285,56 @@
         ],
         "android": [
             {
+                "id": "happ",
+                "name": "Happ",
+                "isFeatured": true,
+                "urlScheme": "happ://add/",
+                "installationStep": {
+                    "buttons": [
+                        {
+                            "buttonLink": "https://play.google.com/store/apps/details?id=com.happproxy",
+                            "buttonText": {
+                                "en": "Open in Google Play",
+                                "fa": "باز کردن در Google Play",
+                                "ru": "Открыть в Google Play",
+                                "zh": "在 Google Play 打开"
+                            }
+                        },
+                        {
+                            "buttonLink": "https://github.com/Happ-proxy/happ-android/releases/latest/download/Happ.apk",
+                            "buttonText": {
+                                "en": "Download APK",
+                                "fa": "دانلود APK",
+                                "ru": "Скачать APK",
+                                "zh": "下载 APK"
+                            }
+                        }
+                    ],
+                    "description": {
+                        "en": "Open the page in Google Play and install the app. Or install the app directly from the APK file if Google Play is not working.",
+                        "fa": "صفحه را در Google Play باز کنید و برنامه را نصب کنید. یا برنامه را مستقیماً از فایل APK نصب کنید، اگر Google Play کار نمی کند.",
+                        "ru": "Откройте страницу в Google Play и установите приложение. Или установите приложение из APK файла напрямую, если Google Play не работает.",
+                        "zh": "在 Google Play 打开页面并安装应用。如果 Google Play 无法使用，也可以直接通过 APK 文件安装此应用。"
+                    }
+                },
+                "addSubscriptionStep": {
+                    "description": {
+                        "en": "Click the button below to add subscription",
+                        "fa": "برای افزودن اشتراک روی دکمه زیر کلیک کنید",
+                        "ru": "Нажмите кнопку ниже, чтобы добавить подписку",
+                        "zh": "点击下方按钮以添加订阅"
+                    }
+                },
+                "connectAndUseStep": {
+                    "description": {
+                        "en": "Open the app and connect to the server",
+                        "fa": "برنامه را باز کنید و به سرور متصل شوید",
+                        "ru": "Откройте приложение и подключитесь к серверу",
+                        "zh": "打开应用并连接到服务器"
+                    }
+                }
+            },
+            {
                 "id": "flclashx",
                 "name": "FlClashX",
                 "isFeatured": true,
@@ -346,115 +396,6 @@
                         "fa": "پروفایل افزوده‌شده را در بخش پروفایل‌ها انتخاب کنید. در پنل کنترل، روی دکمه فعال‌سازی در گوشه پایین سمت راست کلیک کنید. پس از اجرا، می‌توانید در بخش پروکسی، سروری را که به آن متصل می‌شوید تغییر دهید.",
                         "ru": "Выберите добавленный профиль в разделе Профили. В Панели управления нажмите кнопку включить в правом нижнем углу. После запуска в разделе Прокси вы можете изменить выбор сервера к которому вас подключит. ",
                         "zh": "在 Profiles 部分选择已添加的配置文件。在控制面板右下角点击启用按钮。启动后，你可以在 Proxy 部分更换连接的服务器。"
-                    }
-                }
-            },
-            {
-                "id": "happ",
-                "name": "Happ",
-                "isFeatured": true,
-                "urlScheme": "happ://add/",
-                "installationStep": {
-                    "buttons": [
-                        {
-                            "buttonLink": "https://play.google.com/store/apps/details?id=com.happproxy",
-                            "buttonText": {
-                                "en": "Open in Google Play",
-                                "fa": "باز کردن در Google Play",
-                                "ru": "Открыть в Google Play",
-                                "zh": "在 Google Play 打开"
-                            }
-                        },
-                        {
-                            "buttonLink": "https://github.com/Happ-proxy/happ-android/releases/latest/download/Happ.apk",
-                            "buttonText": {
-                                "en": "Download APK",
-                                "fa": "دانلود APK",
-                                "ru": "Скачать APK",
-                                "zh": "下载 APK"
-                            }
-                        }
-                    ],
-                    "description": {
-                        "en": "Open the page in Google Play and install the app. Or install the app directly from the APK file if Google Play is not working.",
-                        "fa": "صفحه را در Google Play باز کنید و برنامه را نصب کنید. یا برنامه را مستقیماً از فایل APK نصب کنید، اگر Google Play کار نمی کند.",
-                        "ru": "Откройте страницу в Google Play и установите приложение. Или установите приложение из APK файла напрямую, если Google Play не работает.",
-                        "zh": "在 Google Play 打开页面并安装应用。如果 Google Play 无法使用，也可以直接通过 APK 文件安装此应用。"
-                    }
-                },
-                "addSubscriptionStep": {
-                    "description": {
-                        "en": "Click the button below to add subscription",
-                        "fa": "برای افزودن اشتراک روی دکمه زیر کلیک کنید",
-                        "ru": "Нажмите кнопку ниже, чтобы добавить подписку",
-                        "zh": "点击下方按钮以添加订阅"
-                    }
-                },
-                "connectAndUseStep": {
-                    "description": {
-                        "en": "Open the app and connect to the server",
-                        "fa": "برنامه را باز کنید و به سرور متصل شوید",
-                        "ru": "Откройте приложение и подключитесь к серверу",
-                        "zh": "打开应用并连接到服务器"
-                    }
-                }
-            },
-            {
-                "id": "sing-box",
-                "name": "sing-box",
-                "isFeatured": false,
-                "urlScheme": "sing-box://import-remote-profile/?url=",
-                "installationStep": {
-                    "buttons": [
-                        {
-                            "buttonLink": "https://play.google.com/store/apps/details?id=io.nekohasekai.sfa",
-                            "buttonText": {
-                                "en": "Open in Google Play",
-                                "fa": "باز کردن در Google Play",
-                                "ru": "Открыть в Google Play",
-                                "zh": "在 Google Play 打开"
-                            }
-                        },
-                        {
-                            "buttonLink": "https://github.com/SagerNet/sing-box/releases/download/v1.11.15/SFA-1.11.15-universal.apk",
-                            "buttonText": {
-                                "en": "Download APK",
-                                "fa": "دانلود APK",
-                                "ru": "Скачать APK",
-                                "zh": "下载 APK"
-                            }
-                        },
-                        {
-                            "buttonLink": "https://f-droid.org/packages/io.nekohasekai.sfa/",
-                            "buttonText": {
-                                "en": "Open in F-Droid",
-                                "fa": "در F-Droid باز کنید",
-                                "ru": "Открыть в F-Droid",
-                                "zh": "在 F-Droid 打开"
-                            }
-                        }
-                    ],
-                    "description": {
-                        "en": "Open the page in Google Play and install the app. Or install the app directly from the APK file if Google Play is not working.",
-                        "fa": "صفحه را در Google Play باز کنید و برنامه را نصب کنید. یا برنامه را مستقیماً از فایل APK نصب کنید، اگر Google Play کار نمی کند.",
-                        "ru": "Откройте страницу в Google Play и установите приложение. Или установите приложение из APK файла напрямую, если Google Play не работает.",
-                        "zh": "在 Google Play 打开页面并安装应用。如果 Google Play 无法使用，也可以直接通过 APK 文件安装此应用。"
-                    }
-                },
-                "addSubscriptionStep": {
-                    "description": {
-                        "en": "Click the button below — the app will open and the subscription will be added automatically",
-                        "fa": "برای افزودن خودکار اشتراک روی دکمه زیر کلیک کنید - برنامه باز خواهد شد",
-                        "ru": "Нажмите кнопку ниже — приложение откроется, и подписка добавится автоматически.",
-                        "zh": "点击下方按钮，应用将会打开，并自动添加订阅"
-                    }
-                },
-                "connectAndUseStep": {
-                    "description": {
-                        "en": "On the Dashboard page, select the added profile and click the Enable button in the bottom right corner to connect to the VPN.",
-                        "fa": "در صفحه اصلی داشبورد، پروفایل اضافه‌شده را انتخاب کنید و روی دکمه فعال‌سازی در گوشه پایین سمت راست کلیک کنید تا به VPN متصل شوید.",
-                        "ru": "На главной странице Dashboard выберите добавленный профиль и нажмите кнопку Включить в правом нижнем углу для подключения к VPN.",
-                        "zh": "在主面板页面，选择已添加的配置文件并点击右下角的启用按钮以连接 VPN。"
                     }
                 }
             },
