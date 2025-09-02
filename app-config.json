@@ -350,65 +350,6 @@
                 }
             },
             {
-                "id": "clash-meta",
-                "name": "Clash Meta",
-                "isFeatured": true,
-                "urlScheme": "clashmeta://install-config?name=Remnawave&url=",
-                "installationStep": {
-                    "buttons": [
-                        {
-                            "buttonLink": "https://github.com/MetaCubeX/ClashMetaForAndroid/releases/download/v2.11.15/cmfa-2.11.15-meta-universal-release.apk",
-                            "buttonText": {
-                                "en": "Download APK",
-                                "fa": "دانلود APK",
-                                "ru": "Скачать APK",
-                                "zh": "下载 APK"
-                            }
-                        },
-                        {
-                            "buttonLink": "https://f-droid.org/packages/com.github.metacubex.clash.meta/",
-                            "buttonText": {
-                                "en": "Open in F-Droid",
-                                "fa": "در F-Droid باز کنید",
-                                "ru": "Открыть в F-Droid",
-                                "zh": "在 F-Droid 打开"
-                            }
-                        },
-                        {
-                            "buttonLink": "https://legiz-ru.github.io/Orion/redirect-page/?redirect_to=obtainium://app/%7B%22id%22%3A%22com.github.metacubex.clash.meta%22%2C%22url%22%3A%22https%3A%2F%2Fgithub.com%2FMetaCubeX%2FClashMetaForAndroid%22%2C%22author%22%3A%22MetaCubeX%22%2C%22name%22%3A%22Clash%20Meta%20for%20Android%22%2C%22preferredApkIndex%22%3A0%2C%22additionalSettings%22%3A%22%7B%5C%22includePrereleases%5C%22%3Afalse%2C%5C%22fallbackToOlderReleases%5C%22%3Atrue%2C%5C%22filterReleaseTitlesByRegEx%5C%22%3A%5C%22%5C%22%2C%5C%22filterReleaseNotesByRegEx%5C%22%3A%5C%22%5C%22%2C%5C%22verifyLatestTag%5C%22%3Afalse%2C%5C%22sortMethodChoice%5C%22%3A%5C%22date%5C%22%2C%5C%22useLatestAssetDateAsReleaseDate%5C%22%3Afalse%2C%5C%22releaseTitleAsVersion%5C%22%3Afalse%2C%5C%22trackOnly%5C%22%3Afalse%2C%5C%22versionExtractionRegEx%5C%22%3A%5C%22%5C%22%2C%5C%22matchGroupToUse%5C%22%3A%5C%22%5C%22%2C%5C%22versionDetection%5C%22%3Afalse%2C%5C%22releaseDateAsVersion%5C%22%3Afalse%2C%5C%22useVersionCodeAsOSVersion%5C%22%3Afalse%2C%5C%22apkFilterRegEx%5C%22%3A%5C%22universal%5C%22%2C%5C%22invertAPKFilter%5C%22%3Afalse%2C%5C%22autoApkFilterByArch%5C%22%3Atrue%2C%5C%22appName%5C%22%3A%5C%22%5C%22%2C%5C%22appAuthor%5C%22%3A%5C%22%5C%22%2C%5C%22shizukuPretendToBeGooglePlay%5C%22%3Afalse%2C%5C%22allowInsecure%5C%22%3Afalse%2C%5C%22exemptFromBackgroundUpdates%5C%22%3Afalse%2C%5C%22skipUpdateNotifications%5C%22%3Afalse%2C%5C%22about%5C%22%3A%5C%22%5C%22%2C%5C%22refreshBeforeDownload%5C%22%3Afalse%2C%5C%22dontSortReleasesList%5C%22%3Afalse%7D%22%2C%22overrideSource%22%3Anull%7D",
-                            "buttonText": {
-                                "en": "Add to Obtainium",
-                                "fa": "افزودن به Obtainium",
-                                "ru": "Добавить в Obtainium",
-                                "zh": "添加到 Obtainium"
-                            }
-                        }
-                    ],
-                    "description": {
-                        "en": "Download and install Clash Meta APK",
-                        "fa": "دانلود و نصب Clash Meta APK",
-                        "ru": "Скачайте и установите Clash Meta APK",
-                        "zh": "下载并安装 Clash Meta APK"
-                    }
-                },
-                "addSubscriptionStep": {
-                    "description": {
-                        "en": "Click the button below to open the profile creation window. You will need to specify the auto-update period, for example, 720 minutes. Click the Save button in the top right corner.",
-                        "fa": "دکمه زیر را بزنید تا پنجره ایجاد پروفایل باز شود. شما باید دوره به‌روزرسانی خودکار را مشخص کنید، مثلاً ۷۲۰ دقیقه. دکمه ذخیره را در بالا سمت راست بزنید.",
-                        "ru": "Нажми кнопку ниже — откроется окно создания профиля. Тебе потребуется указать период автообновления, например, 720 минут. Справа вверху нажми на кнопку Сохранить.",
-                        "zh": "点击下方按钮打开配置文件创建窗口。你需要指定自动更新周期，例如 720 分钟。点击右上角的保存按钮。"
-                    }
-                },
-                "connectAndUseStep": {
-                    "description": {
-                        "en": "Go to the Profiles section and select the created profile, then return to the main page. Now you can connect by clicking the Stopped button.",
-                        "fa": "به بخش پروفایل‌ها بروید و پروفایل ایجاد شده را انتخاب کنید، سپس به صفحه اصلی بازگردید. اکنون می‌توانید با زدن دکمه «متوقف شده» متصل شوید.",
-                        "ru": "Перейди в пункт Профили и выбери созданный профиль, затем вернись на главную страницу. Теперь ты можешь подключиться, нажав на кнопку Остановлен",
-                        "zh": "进入“配置文件”部分并选择已创建的配置文件，然后返回主页面。现在你可以点击“已停止”按钮连接。"
-                    }
-                }
-            },
-            {
                 "id": "happ",
                 "name": "Happ",
                 "isFeatured": true,
@@ -742,104 +683,6 @@
                 }
             },
             {
-                "id": "koala-clash",
-                "name": "Koala Clash",
-                "isFeatured": true,
-                "urlScheme": "koala-clash://install-config?url=",
-                "installationStep": {
-                    "buttons": [
-                        {
-                            "buttonLink": "https://github.com/coolcoala/clash-verge-rev-lite/releases/latest/download/Koala.Clash_amd64.deb",
-                            "buttonText": {
-                                "en": "amd64 (.deb)",
-                                "fa": "amd64 (.deb)",
-                                "ru": "amd64 (.deb)",
-                                "zh": "amd64 (.deb)"
-                            }
-                        },
-                        {
-                            "buttonLink": "https://github.com/coolcoala/clash-verge-rev-lite/releases/latest/download/Koala.Clash.x86_64.rpm",
-                            "buttonText": {
-                                "en": "amd64 (.rpm)",
-                                "fa": "amd64 (.rpm)",
-                                "ru": "amd64 (.rpm)",
-                                "zh": "amd64 (.rpm)"
-                            }
-                        },
-                        {
-                            "buttonLink": "https://github.com/coolcoala/clash-verge-rev-lite/releases/latest/download/Koala.Clash_arm64.deb",
-                            "buttonText": {
-                                "en": "arm64 (.deb)",
-                                "fa": "arm64 (.deb)",
-                                "ru": "arm64 (.deb)",
-                                "zh": "arm64 (.deb)"
-                            }
-                        },
-                        {
-                            "buttonLink": "https://github.com/coolcoala/clash-verge-rev-lite/releases/latest/download/Koala.Clash.aarch64.rpm",
-                            "buttonText": {
-                                "en": "arm64 (.rpm)",
-                                "fa": "arm64 (.rpm)",
-                                "ru": "arm64 (.rpm)",
-                                "zh": "arm64 (.rpm)"
-                            }
-                        }
-                    ],
-                    "description": {
-                        "en": "Choose the version for your device, click the button below and install the app.",
-                        "fa": "نسخه مناسب برای دستگاه خود را انتخاب کنید، دکمه زیر را فشار دهید و برنامه را نصب کنید",
-                        "ru": "Выберите подходящую версию для вашего устройства, нажмите на кнопку ниже и установите приложение.",
-                        "zh": "选择适合您设备的版本，点击下方按钮并安装应用程序。"
-                    }
-                },
-                "additionalBeforeAddSubscriptionStep": {
-                    "buttons": [],
-                    "description": {
-                        "en": "If you have previously used Clash Verge Rev, you need to uninstall it before installing Koala Clash.",
-                        "fa": "اگر قبلاً از Clash Verge Rev استفاده کرده‌اید، باید قبل از نصب Koala Clash آن را حذف کنید.",
-                        "ru": "Если вы ранее использовали Clash Verge Rev, то его требуется удалить перед установкой Koala Clash.",
-                        "zh": "如果您之前用过 Clash Verge Rev，请在安装 Koala Clash 前先卸载它。"
-                    },
-                    "title": {
-                        "en": "Warning",
-                        "fa": "هشدار",
-                        "ru": "Предупреждение",
-                        "zh": "警告"
-                    }
-                },
-                "addSubscriptionStep": {
-                    "description": {
-                        "en": "Click the button below to add subscription",
-                        "fa": "برای افزودن اشتراک روی دکمه زیر کلیک کنید",
-                        "ru": "Нажмите кнопку ниже, чтобы добавить подписку",
-                        "zh": "点击下方按钮以添加订阅"
-                    }
-                },
-                "additionalAfterAddSubscriptionStep": {
-                    "buttons": [],
-                    "title": {
-                        "en": "If the subscription is not added",
-                        "fa": "اگر اشتراک اضافه نشد",
-                        "ru": "Если подписка не добавилась",
-                        "zh": "如果未添加订阅"
-                    },
-                    "description": {
-                        "en": "If nothing happens after clicking the button, add the subscription manually. Click the Get Link button in the top right corner of this page, copy the link. In Koala Clash, go to the main page, click the Add Profile button, paste the link into the text field, and then click the Import button.",
-                        "fa": "اگر پس از کلیک روی دکمه هیچ اتفاقی نیفتاد، اشتراک را به صورت دستی اضافه کنید. روی دکمه دریافت لینک در گوشه بالا سمت راست این صفحه کلیک کنید و لینک را کپی کنید. در برنامه Koala Clash به صفحه اصلی بروید، روی دکمه افزودن پروفایل کلیک کنید، لینک را در فیلد متنی قرار دهید و سپس روی دکمه وارد کردن کلیک کنید.",
-                        "ru": "Если после нажатия на кнопку ничего не произошло, добавьте подписку вручную. Нажмите на этой странице кнопку Получить ссылку в правом верхнем углу, скопируйте ссылку. В Koala Clash перейдите на главную страницу, нажмите кнопку Добавить профиль и вставьте ссылку в текстовое поле, затем нажмите на кнопку Импорт.",
-                        "zh": "如果点击按钮后没有反应，请手动添加订阅。在此页面右上角点击“获取链接”按钮，复制链接。在 Koala Clash 主页面点击“添加配置文件”按钮，将链接粘贴到文本框中，然后点击“导入”按钮。"
-                    }
-                },
-                "connectAndUseStep": {
-                    "description": {
-                        "en": "You can select a server at the bottom of the main page, and enable VPN by clicking on the large button in the center of the main page.",
-                        "fa": "می‌توانید سرور را در پایین صفحه اصلی انتخاب کنید و با کلیک روی دکمه بزرگ در مرکز صفحه اصلی، VPN را فعال کنید.",
-                        "ru": "Выбрать сервер можно внизу на главной странице, включить VPN можно нажав на главной странице на большую кнопку по центру.",
-                        "zh": "您可以在主页面底部选择服务器，并通过点击主页面中央的大按钮来启用 VPN。"
-                    }
-                }
-            },
-            {
                 "id": "happ",
                 "name": "Happ (alpha)",
                 "isFeatured": false,
@@ -883,7 +726,7 @@
             {
                 "id": "clash-verge",
                 "name": "Clash Verge",
-                "isFeatured": false,
+                "isFeatured": true,
                 "urlScheme": "clash://install-config?url=",
                 "installationStep": {
                     "buttons": [
@@ -980,86 +823,6 @@
             }
         ],
         "macos": [
-            {
-                "id": "koala-clash",
-                "name": "Koala Clash",
-                "isFeatured": true,
-                "urlScheme": "koala-clash://install-config?url=",
-                "installationStep": {
-                    "buttons": [
-                        {
-                            "buttonLink": "https://github.com/coolcoala/clash-verge-rev-lite/releases/latest/download/Koala.Clash_aarch64.dmg",
-                            "buttonText": {
-                                "en": "macOS (Apple Silicon)",
-                                "fa": "مک (Apple Silicon)",
-                                "ru": "macOS (Apple Silicon)",
-                                "zh": "macOS（Apple Silicon）"
-                            }
-                        },
-                        {
-                            "buttonLink": "https://github.com/coolcoala/clash-verge-rev-lite/releases/latest/download/Koala.Clash_x64.dmg",
-                            "buttonText": {
-                                "en": "macOS (Intel)",
-                                "fa": "مک (اینتل)",
-                                "ru": "macOS (Intel)",
-                                "zh": "macOS（Intel）"
-                            }
-                        }
-                    ],
-                    "description": {
-                        "en": "Choose the version for your device, click the button below and install the app.",
-                        "fa": "نسخه مناسب برای دستگاه خود را انتخاب کنید، دکمه زیر را فشار دهید و برنامه را نصب کنید",
-                        "ru": "Выберите подходящую версию для вашего устройства, нажмите на кнопку ниже и установите приложение.",
-                        "zh": "选择适合您设备的版本，点击下方按钮并安装应用程序。"
-                    }
-                },
-                "additionalBeforeAddSubscriptionStep": {
-                    "buttons": [],
-                    "description": {
-                        "en": "If you have previously used Clash Verge Rev, you need to uninstall it before installing Koala Clash. ⚠️ Warning: If you get a notification that the application is corrupted when you run it on macOS, run this command in Terminal: sudo xattr -r -c /Applications/Koala\\ Clash.app",
-                        "fa": "اگر قبلاً از Clash Verge Rev استفاده کرده‌اید، باید قبل از نصب Koala Clash آن را حذف کنید. ⚠️ هشدار: اگر هنگام اجرای برنامه در macOS پیامی مبنی بر خراب بودن برنامه دریافت کردید، این دستور را در ترمینال اجرا کنید: sudo xattr -r -c /Applications/Koala\\ Clash.app",
-                        "ru": "Если вы ранее использовали Clash Verge Rev, то его требуется удалить перед установкой Koala Clash. ⚠️ Предупреждение: Если при запуске приложения на macOS появляется уведомление, что приложение повреждено, выполните эту команду в терминале: sudo xattr -r -c /Applications/Koala\\ Clash.app",
-                        "zh": "如果您之前用过 Clash Verge Rev，请在安装 Koala Clash 前先卸载它。⚠️ 警告：如果在 macOS 上运行应用时收到应用已损坏的提示，请在终端运行以下命令：sudo xattr -r -c /Applications/Koala\\ Clash.app"
-                    },
-                    "title": {
-                        "en": "Warning",
-                        "fa": "هشدار",
-                        "ru": "Предупреждение",
-                        "zh": "警告"
-                    }
-                },
-                "addSubscriptionStep": {
-                    "description": {
-                        "en": "Click the button below to add subscription",
-                        "fa": "برای افزودن اشتراک روی دکمه زیر کلیک کنید",
-                        "ru": "Нажмите кнопку ниже, чтобы добавить подписку",
-                        "zh": "点击下方按钮以添加订阅"
-                    }
-                },
-                "additionalAfterAddSubscriptionStep": {
-                    "buttons": [],
-                    "title": {
-                        "en": "If the subscription is not added",
-                        "fa": "اگر اشتراک اضافه نشد",
-                        "ru": "Если подписка не добавилась",
-                        "zh": "如果未添加订阅"
-                    },
-                    "description": {
-                        "en": "If nothing happens after clicking the button, add the subscription manually. Click the Get Link button in the top right corner of this page, copy the link. In Koala Clash, go to the main page, click the Add Profile button, paste the link into the text field, and then click the Import button.",
-                        "fa": "اگر پس از کلیک روی دکمه هیچ اتفاقی نیفتاد، اشتراک را به صورت دستی اضافه کنید. روی دکمه دریافت لینک در گوشه بالا سمت راست این صفحه کلیک کنید و لینک را کپی کنید. در برنامه Koala Clash به صفحه اصلی بروید، روی دکمه افزودن پروفایل کلیک کنید، لینک را در فیلد متنی قرار دهید و سپس روی دکمه وارد کردن کلیک کنید.",
-                        "ru": "Если после нажатия на кнопку ничего не произошло, добавьте подписку вручную. Нажмите на этой странице кнопку Получить ссылку в правом верхнем углу, скопируйте ссылку. В Koala Clash перейдите на главную страницу, нажмите кнопку Добавить профиль и вставьте ссылку в текстовое поле, затем нажмите на кнопку Импорт.",
-                        "zh": "如果点击按钮后没有反应，请手动添加订阅。在此页面右上角点击“获取链接”按钮，复制链接。在 Koala Clash 主页面点击“添加配置文件”按钮，将链接粘贴到文本框中，然后点击“导入”按钮。"
-                    }
-                },
-                "connectAndUseStep": {
-                    "description": {
-                        "en": "You can select a server at the bottom of the main page, and enable VPN by clicking on the large button in the center of the main page.",
-                        "fa": "می‌توانید سرور را در پایین صفحه اصلی انتخاب کنید و با کلیک روی دکمه بزرگ در مرکز صفحه اصلی، VPN را فعال کنید.",
-                        "ru": "Выбрать сервер можно внизу на главной странице, включить VPN можно нажав на главной странице на большую кнопку по центру.",
-                        "zh": "您可以在主页面底部选择服务器，并通过点击主页面中央的大按钮来启用 VPN。"
-                    }
-                }
-            },
             {
                 "id": "happ",
                 "name": "Happ (alpha)",
@@ -1219,7 +982,7 @@
             {
                 "id": "clash-verge",
                 "name": "Clash Verge",
-                "isFeatured": false,
+                "isFeatured": true,
                 "urlScheme": "clash://install-config?url=",
                 "installationStep": {
                     "buttons": [
@@ -1382,86 +1145,6 @@
                 }
             },
             {
-                "id": "koala-clash",
-                "name": "Koala Clash",
-                "isFeatured": true,
-                "urlScheme": "koala-clash://install-config?url=",
-                "installationStep": {
-                    "buttons": [
-                        {
-                            "buttonLink": "https://github.com/coolcoala/clash-verge-rev-lite/releases/latest/download/Koala.Clash_x64-setup.exe",
-                            "buttonText": {
-                                "en": "Windows (Setup)",
-                                "fa": "ویندوز (نصب)",
-                                "ru": "Windows (Установщик)",
-                                "zh": "Windows（安装程序）"
-                            }
-                        },
-                        {
-                            "buttonLink": "https://github.com/coolcoala/clash-verge-rev-lite/releases/latest/download/Koala.Clash_arm64-setup.exe",
-                            "buttonText": {
-                                "en": "Windows on ARM (Setup)",
-                                "fa": "ویندوز ARM (نصب)",
-                                "ru": "Windows на ARM (Установщик)",
-                                "zh": "Windows on ARM（安装程序）"
-                            }
-                        }
-                    ],
-                    "description": {
-                        "en": "Choose the version for your device, click the button below and install the app.",
-                        "fa": "نسخه مناسب برای دستگاه خود را انتخاب کنید، دکمه زیر را فشار دهید و برنامه را نصب کنید",
-                        "ru": "Выберите подходящую версию для вашего устройства, нажмите на кнопку ниже и установите приложение.",
-                        "zh": "选择适合您设备的版本，点击下方按钮并安装应用程序。"
-                    }
-                },
-                "additionalBeforeAddSubscriptionStep": {
-                    "buttons": [],
-                    "description": {
-                        "en": "If you have previously used Clash Verge Rev, you need to uninstall it before installing Koala Clash.",
-                        "fa": "اگر قبلاً از Clash Verge Rev استفاده کرده‌اید، باید قبل از نصب Koala Clash آن را حذف کنید.",
-                        "ru": "Если вы ранее использовали Clash Verge Rev, то его требуется удалить перед установкой Koala Clash.",
-                        "zh": "如果您之前用过 Clash Verge Rev，请在安装 Koala Clash 前先卸载它。"
-                    },
-                    "title": {
-                        "en": "Warning",
-                        "fa": "هشدار",
-                        "ru": "Предупреждение",
-                        "zh": "警告"
-                    }
-                },
-                "addSubscriptionStep": {
-                    "description": {
-                        "en": "Click the button below to add subscription",
-                        "fa": "برای افزودن اشتراک روی دکمه زیر کلیک کنید",
-                        "ru": "Нажмите кнопку ниже, чтобы добавить подписку",
-                        "zh": "点击下方按钮以添加订阅"
-                    }
-                },
-                "additionalAfterAddSubscriptionStep": {
-                    "buttons": [],
-                    "title": {
-                        "en": "If the subscription is not added",
-                        "fa": "اگر اشتراک اضافه نشد",
-                        "ru": "Если подписка не добавилась",
-                        "zh": "如果未添加订阅"
-                    },
-                    "description": {
-                        "en": "If nothing happens after clicking the button, add the subscription manually. Click the Get Link button in the top right corner of this page, copy the link. In Koala Clash, go to the main page, click the Add Profile button, paste the link into the text field, and then click the Import button.",
-                        "fa": "اگر پس از کلیک روی دکمه هیچ اتفاقی نیفتاد، اشتراک را به صورت دستی اضافه کنید. روی دکمه دریافت لینک در گوشه بالا سمت راست این صفحه کلیک کنید و لینک را کپی کنید. در برنامه Koala Clash به صفحه اصلی بروید، روی دکمه افزودن پروفایل کلیک کنید، لینک را در فیلد متنی قرار دهید و سپس روی دکمه وارد کردن کلیک کنید.",
-                        "ru": "Если после нажатия на кнопку ничего не произошло, добавьте подписку вручную. Нажмите на этой странице кнопку Получить ссылку в правом верхнем углу, скопируйте ссылку. В Koala Clash перейдите на главную страницу, нажмите кнопку Добавить профиль и вставьте ссылку в текстовое поле, затем нажмите на кнопку Импорт.",
-                        "zh": "如果点击按钮后没有反应，请手动添加订阅。在此页面右上角点击“获取链接”按钮，复制链接。在 Koala Clash 主页面点击“添加配置文件”按钮，将链接粘贴到文本框中，然后点击“导入”按钮。"
-                    }
-                },
-                "connectAndUseStep": {
-                    "description": {
-                        "en": "You can select a server at the bottom of the main page, and enable VPN by clicking on the large button in the center of the main page.",
-                        "fa": "می‌توانید سرور را در پایین صفحه اصلی انتخاب کنید و با کلیک روی دکمه بزرگ در مرکز صفحه اصلی، VPN را فعال کنید.",
-                        "ru": "Выбрать сервер можно внизу на главной странице, включить VPN можно нажав на главной странице на большую кнопку по центру.",
-                        "zh": "您可以在主页面底部选择服务器，并通过点击主页面中央的大按钮来启用 VPN。"
-                    }
-                }
-            },
-            {
                 "id": "happ",
                 "name": "Happ (alpha)",
                 "isFeatured": false,
@@ -1505,7 +1188,7 @@
             {
                 "id": "clash-verge",
                 "name": "Clash Verge",
-                "isFeatured": false,
+                "isFeatured": true,
                 "urlScheme": "clash://install-config?url=",
                 "installationStep": {
                     "buttons": [
