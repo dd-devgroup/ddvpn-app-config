@@ -724,7 +724,7 @@
             {
                 "id": "prizrak-box",
                 "name": "Prizrak-Box",
-                "isFeatured": false,
+                "isFeatured": true,
                 "urlScheme": "prizrak-box://install-config?url=",
                 "installationStep": {
                     "buttons": [
